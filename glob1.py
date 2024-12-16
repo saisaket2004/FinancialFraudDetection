@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-data = pd.read_csv("C:\\Users\\tadak\\Downloads\\archive\\Synthetic_Financial_datasets_log.csv")
+data = pd.read_csv("Path to dataset")
 
 # Check for non-numeric columns (e.g., 'nameOrig', 'nameDest', or other IDs) and drop them
 # Assuming 'nameOrig', 'nameDest' are non-numeric columns that shouldn't be processed
